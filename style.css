@@ -1,12 +1,33 @@
 
-body {
-  width: 75%;
-  margin: auto;
-  /* Google fonts */
-  font-family: 'Roboto', sans-serif;
-  background-color: black;
+html, body {
+  /*width: 95%;*/
+  margin: 0;
+  height: 100%;
+  font-family: 'Libre Baskerville', serif;
+  color: red;
+  background-color: darkgray;
 }
 
+
+#header {
+  margin: auto;
+  /*width: 95%;*/
+  background-color: rgba(255, 0, 0, 0.4);
+}
+
+#body {
+  margin: auto;
+  max-width: 95%;
+  height: 100%;
+  background-color: rgba(0, 255, 0, 0.4);
+}
+
+#footer {
+  margin: auto;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 255, 0.4);
+}
 
 /* Main Menu */
 ul {
@@ -33,10 +54,49 @@ li a:hover {
   background-color: rgba(51, 0, 255, 0.4);
 }
 
-
 .title {
-  text-align: center;
+  /*text-align: center;*/
   color: whitesmoke;
   font-size: 6vh;
   font-weight: 100;
+}
+
+/* Allow padding without columns stacking */
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  /*align-items: stretch;*/
+  /*flex-wrap: wrap;*/
+}
+
+.col1, .col2 {
+  float: left;
+  padding: 25px;
+}
+
+.col1 {
+  width: 30%;
+  background-color: white;
+}
+
+.col2 {
+  width: 70%;
+  background-color: lightgray;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* responsive layout - stack the columns on small screens */
+@media screen and (max-width: 600px) {
+  .col1, .col2 {
+    width: 100%;
+  }
 }
