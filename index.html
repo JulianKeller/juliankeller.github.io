@@ -4,18 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Julian's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
+  <link rel="stylesheet" href="style.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 </head>
 
 
 <body background="images/asfalt-light.png">
 
-<div id="container">
+<div class="container">
   <div id="header">
     <!-- Main Menu -->
-    <ul>
+    <ul class="menu">
       <li><a class="active" href="#">Home</a></li>
       <li><a class="active" href="#">Portfolio</a></li>
       <li><a class="active" href="#">About Me</a></li>
@@ -29,7 +32,8 @@
     <div class="row">
 
       <div class="col1">
-        <h2>Julian Keller</h2>
+        <h1>Julian Keller</h1>
+        <h3>Computer Science Major</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie tortor nec tellus scelerisque
           faucibus
@@ -39,19 +43,50 @@
           magna lectus, quis ornare felis placerat eu.
         </p>
 
+        <div class="icon-table">
+        <ul class="icons">
+          <li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+          <li><a href="#"><i class="fas fa-envelope fa-2x"></i></a></li>
+        </ul>
+        </div>
+
       </div>
 
       <div class="col2">
-        <h2>Col 2</h2>
-        <p>Text</p>
+        <h1 id="portfolio-title">Portfolio</h1>
+
+        <div class="card">
+          <h2>Example Project</h2>
+          <p>Project Description goes here.</p>
+          <img class="card-image" src="images/1000x1000.png">
+          <a>View on Github</a>
+        </div>
+
+        <div class="card">
+          <h1>Example Project</h1>
+          <p>Project Description goes here.</p>
+          <img class="card-image" src="images/1000x1000.png">
+        </div>
+
       </div>
 
     </div>
   </div>
 
   <div id="footer">
-    Footer
+    <div class="icon-table">
+      <ul class="icons">
+        <li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        <li><a href="#"><i class="fas fa-envelope fa-2x"></i></a></li>
+      </ul>
+    </div>
+
+    <p id="copyright">Julian Keller 2018 &copy;</p>
+
   </div>
+
 
 </div>
 </body>
