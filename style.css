@@ -93,7 +93,6 @@ ul {
   color: #01bd59;
 }
 
-
 .title {
   /*text-align: center;*/
   color: whitesmoke;
@@ -133,40 +132,21 @@ ul {
   clear: both;
 }
 
-/* for smaller screens */
-@media screen and (max-width: 600px) {
-  .col1, .col2 {
-    width: 100%;
-  }
-}
-
-/* for larger screens */
-@media screen and (min-width: 601px) {
-  .row {
-    display: flex;
-  }
-  .col1 {
-    overflow: auto;
-    position: fixed;
-  }
-  .col2 {
-    overflow: auto;
-    margin-left: 33%;
-  }
-}
-
 
 .card {
   background-color: whitesmoke;
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 30px;
+  padding: 5px 20px 20px;
   border-radius: 3px;
   box-shadow: 0px 0px 8px grey;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
   /*color: white;*/
 }
 
+.center a {
+  color: darkgray;
+}
 
 .card-image {
   display: block;
@@ -195,9 +175,47 @@ a:hover {
   color: #01bd59;
 }
 
+/* parent to center the button */
+.center {
+  text-align: center;
+}
+
 .button {
-  padding: 15px 30px;
-  border-radius:5px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px 10px;
+  border-radius: 5px;
   text-decoration: none;
   border: none;
+  font-size: 20px;
+  background-color: #01bd59;
+  color: white;
 }
+
+.button:hover {
+  background-color: #01b361;
+  color: white;
+}
+
+/* for smaller screens */
+@media screen and (max-width: 600px) {
+  .col1, .col2 {
+    width: 100%;
+  }
+}
+
+/* for larger screens */
+@media screen and (min-width: 601px) {
+  .row {
+    display: flex;
+  }
+  .col1 {
+    overflow: auto;
+    position: fixed;
+  }
+  .col2 {
+    overflow: auto;
+    margin-left: 33%;
+  }
+}
+
