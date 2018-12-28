@@ -7,11 +7,9 @@ html, body, .col1, .col2 {
 
 body {
   margin: 0;
-  /*height: 100%;*/
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Helvetica', serif;
   background-color: black;
 }
-
 
 
 #header {
@@ -45,7 +43,7 @@ body {
 }
 
 /* Main Menu */
-ul {
+.menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -66,13 +64,21 @@ ul {
 }
 
 .menu li a:hover {
-  background-color: rgba(51, 0, 255, 0.4);
+  /*background-color: rgba(51, 0, 255, 0.4);*/
 }
 
+/* footer table */
 .icon-table {
   display: table;
   margin: 50px auto 50px;
 }
+
+/* Contact icons */
+.icon-table2 {
+  text-align: left;
+  display: table;
+}
+
 
 .icons ul {
   list-style: none;
@@ -95,11 +101,43 @@ ul {
   color: #01bd59;
 }
 
+
+ul.contact-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.contact-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.contact-list li {
+  margin-top: 5px;
+}
+
+.contact-list li a:hover {
+  text-decoration: none;
+  color: #01bd59;
+}
+
 .title {
   /*text-align: center;*/
   color: whitesmoke;
   font-size: 6vh;
   font-weight: 100;
+}
+
+.card .titles {
+  font-family: 'Righteous', cursive;
+  font-size: 3vh;
+  color: black;
+}
+
+.card p {
+  color: darkslategray;
 }
 
 /* Allow padding without columns stacking */
@@ -165,16 +203,18 @@ ul {
 .languages {
   color: darkslategray;
   text-align: center;
+  /*float: right;*/
 }
 
-#portfolio-title {
+
+.titles {
   color: white;
-  text-align: center;
   font-size: 5vh;
+  font-family: 'Righteous', cursive;
 }
 
 a {
-  color: black;
+  /*color: black;*/
   text-decoration: none;
 }
 
