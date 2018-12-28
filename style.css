@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: 'Helvetica', serif;
   background-color: black;
+  line-height: 20px;
 }
 
 
@@ -21,7 +22,6 @@ body {
 
 #body {
   margin: auto;
-  max-width: 85%;
   padding-top: 10px;
   padding-bottom: 10px;
   /*background-color: rgba(0, 255, 0, 0.4);*/
@@ -173,6 +173,9 @@ ul.contact-list {
   clear: both;
 }
 
+.center a {
+  color: slategray;
+}
 
 .card {
   background-color: white;
@@ -185,9 +188,6 @@ ul.contact-list {
   /*color: white;*/
 }
 
-.center a {
-  color: darkgray;
-}
 
 .card-image {
   display: block;
@@ -204,7 +204,8 @@ ul.contact-list {
 .languages {
   color: darkslategray;
   text-align: center;
-  /*float: right;*/
+  font-family: 'Courier New', monospace;
+  /*font-weight: bold;*/
 }
 
 
@@ -246,18 +247,15 @@ a:hover {
 }
 
 /* for smaller screens */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .col1, .col2 {
     width: 100%;
   }
+  #body {
+    max-width: 95%;
+  }
 }
-/*.titles {*/
-  /*font-size: 6vh;*/
-/*}*/
 
-/*.card .titles {*/
-  /*font-size: 5vh;*/
-/*}*/
 
 /* for larger screens */
 @media screen and (min-width: 801px) {
@@ -272,11 +270,8 @@ a:hover {
     overflow: auto;
     margin-left: 33%;
   }
-  /*.titles {*/
-    /*font-size: 5vh;*/
-  /*}*/
-  /*.card .titles {*/
-    /*font-size: 4vh;*/
-  /*}*/
+  #body {
+    max-width: 85%;
+  }
 }
 
