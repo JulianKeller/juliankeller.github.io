@@ -132,7 +132,7 @@ ul.contact-list {
 /*}*/
 
 .card .titles {
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', 'Helvetica', cursive;
   color: black;
   font-size: calc(20px + 2vh);
 }
@@ -211,7 +211,7 @@ ul.contact-list {
 .titles {
   color: white;
   font-size: calc(20px + 4vh);
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', 'Helvetica', cursive;
 }
 
 a {
