@@ -2,6 +2,7 @@
 
 html, body, .col1, .col2 {
   height: 100%;
+  /*width: 75%;*/
   /*margin-bottom: 200px;*/
 }
 
@@ -20,7 +21,7 @@ body {
 
 #body {
   margin: auto;
-  max-width: 95%;
+  max-width: 85%;
   padding-top: 10px;
   padding-bottom: 10px;
   /*background-color: rgba(0, 255, 0, 0.4);*/
@@ -123,21 +124,22 @@ ul.contact-list {
   color: #01bd59;
 }
 
-.title {
-  /*text-align: center;*/
-  color: whitesmoke;
-  font-size: 6vh;
-  font-weight: 100;
-}
+/*.title {*/
+  /*!*text-align: center;*!*/
+  /*color: whitesmoke;*/
+  /*font-size: calc(50px + 5vh);*/
+  /*font-weight: 100;*/
+/*}*/
 
 .card .titles {
   font-family: 'Righteous', cursive;
-  font-size: 3vh;
   color: black;
+  font-size: calc(20px + 2vh);
 }
 
 .card p {
   color: darkslategray;
+  font-size: 18px;
 }
 
 /* Allow padding without columns stacking */
@@ -146,21 +148,20 @@ ul.contact-list {
 }
 
 
-
 .col1, .col2 {
   float: left;
   padding: 25px;
 }
 
 .col1 {
-  width: 30%;
+  width: 27%;
   color: white;
   /*background-color: rgba(255, 255, 255, 0.2);*/
   /*position: fixed;*/
 }
 
 .col2 {
-  width: 70%;
+  width: 63%;
   /*background-color: lightgray;*/
   /*background-color: rgba(255, 255, 255, 0.3);*/
 }
@@ -209,7 +210,7 @@ ul.contact-list {
 
 .titles {
   color: white;
-  font-size: 5vh;
+  font-size: calc(20px + 4vh);
   font-family: 'Righteous', cursive;
 }
 
@@ -245,14 +246,21 @@ a:hover {
 }
 
 /* for smaller screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .col1, .col2 {
     width: 100%;
   }
 }
+/*.titles {*/
+  /*font-size: 6vh;*/
+/*}*/
+
+/*.card .titles {*/
+  /*font-size: 5vh;*/
+/*}*/
 
 /* for larger screens */
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
   .row {
     display: flex;
   }
@@ -264,5 +272,11 @@ a:hover {
     overflow: auto;
     margin-left: 33%;
   }
+  /*.titles {*/
+    /*font-size: 5vh;*/
+  /*}*/
+  /*.card .titles {*/
+    /*font-size: 4vh;*/
+  /*}*/
 }
 
