@@ -2,4 +2,7 @@
 My personal portfolio site.
 
 # TODO
-- [ ] Make screenshots clickable and show fullscreen. 
+- [x] Make screenshots clickable and show fullscreen. 
+- [ ] Add skills
+- [ ] Create logo and tagline
+- [ ] Make cleaner?
