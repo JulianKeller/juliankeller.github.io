@@ -16,24 +16,98 @@
 <body>
 
 <!--Main Menu-->
-<div>
-  <ul class="menu">
-    <li><a class="active" href="#">Home</a></li>
-    <li><a class="active" href="#">Portfolio</a></li>
-    <li><a class="active" href="#">About Me</a></li>
+<div class="menu">
+  <ul>
     <li><a class="active" href="#">Contact</a></li>
+    <li><a class="active" href="#">About Me</a></li>
+    <li><a class="active" href="#">Portfolio</a></li>
+    <li><a class="active" href="#">Home</a></li>
   </ul>
 </div>
 
-<div>
-  <ul class="colors">
-    <li id="background">Background</li>
-    <li id="white">White</li>
-    <li id="grey">Grey</li>
-    <li id="darkgrey">dark Grey</li>
-    <li id="accent">Accent</li>
-  </ul>
+
+<div class="colorBlock">
+  <div id='head' class="blockInfo">
+    <h1>Julian Keller</h1>
+    <p>Seeking Summer 2019 Computer Science Internship</p>
+  </div>
 </div>
+
+<div class="colorBlock">
+  <div id='portfolio' class="blockInfo">
+    <hr>
+    <h1>Portfolio</h1>
+
+    <div class="card">
+        <div class="col1">
+          <a class="title">Cash Flow</a>
+          <p>
+            Cash Flow is a Meteor webapp designed to assist users in budgeting and planning for future
+            expenses. Users can create an account and add budgeting expenses/goals. This was a two person project developed
+            with the Waterfall Model.
+          </p>
+          <code>Javascript, HTML, CSS</code>
+          <code><a class='source' target="_blank" href="https://github.com/JulianKeller/webapp320">Source Code</a></code>
+        </div>
+        <div class="col2">
+          <a target="_blank" href="images/CashFlow/user-budget.png"><img class="card-image" src="images/CashFlow/user-budget.png"></a>
+        </div>
+    </div>
+
+    <div class="card">
+      <div class="col1">
+        <a target="_blank" href="https://juliankeller.github.io/shoppingList/" class="title">Shopping List</a>
+        <p>
+          A responsive web app that allows the user to create a shopping list and keep track of their total as they shop.
+        </p>
+        <code>Javascript, HTML, CSS</code>
+        <code><a class='source' target="_blank" href="https://github.com/JulianKeller/shoppingList">Source Code</a></code>
+      </div>
+      <div class="col2">
+        <div class="center">
+        <a target="_blank" href="images/shoppinglist-light.png"><img class="card-image left" src="images/shoppinglist-light.png"></a>
+        <a target="_blank" href="images/shoppinglist-dark.png"><img class="card-image left" src="images/shoppinglist-dark.png"></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="colorBlock">
+  <div id='contact' class="blockInfo">
+    <hr>
+    <h1>Contact</h1>
+    <p>More stuff here</p>
+  </div>
+</div>
+
+<div class="colorBlock">
+  <div id='footer' class="blockInfo">
+    <hr>
+    <div class="icon-table">
+      <ul class="icons">
+        <li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        <li><a href="#"><i class="fas fa-envelope fa-2x"></i></a></li>
+      </ul>
+  </div>
+    <p id="copyright">Julian Keller 2018 &copy;</p>
+</div>
+
+<!--<div class="colorBlock">-->
+  <!--<div class="blockInfo">-->
+    <!--<hr>-->
+    <!--<ul class="colors">-->
+      <!--<li id="background">Background</li>-->
+      <!--<li id="white">White</li>-->
+      <!--<li id="grey">Grey</li>-->
+      <!--<li id="darkgrey">dark Grey</li>-->
+      <!--<li id="accent">Accent</li>-->
+    <!--</ul>-->
+  <!--</div>-->
+<!--</div>-->
+
 
 </body>
 </html>
