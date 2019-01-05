@@ -5,113 +5,163 @@
   <meta charset="UTF-8">
   <title>Julian's Portfolio</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
   <!-- Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Righteous|Major+Mono+Display" rel="stylesheet">
+  <!--<link href="https://fonts.googleapis.com/css?family=Righteous|Major+Mono+Display" rel="stylesheet">-->
   <!--<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">-->
 </head>
 
 
-<body background="images/asfalt-light.png">
+<body background="images/wallpaper/shattered-dark.png">
 
 <div class="container">
-  <!--<div id="header">-->
-    <!-- Main Menu -->
-    <!--<ul class="menu">-->
-      <!--<li><a class="active" href="#">Home</a></li>-->
-      <!--<li><a class="active" href="#">Portfolio</a></li>-->
-      <!--<li><a class="active" href="#">About Me</a></li>-->
-      <!--<li><a class="active" href="#">Contact</a></li>-->
-    <!--</ul>-->
-  <!--</div>-->
-
-  <div id="body">
+  <!--Main Menu-->
+  <div class="menu">
+    <ul>
+      <li><a class="active" href="#connect">Connect</a></li>
+      <li><a class="active" href="#skills">Skills</a></li>
+      <li><a class="active" href="#portfolio">Portfolio</a></li>
+      <!--<li><a class="active" href="#home">Home</a></li>-->
+    </ul>
+  </div>
 
 
-    <div class="row">
+  <div class="colorBlock">
+    <div id='head' class="blockInfo">
+      <!--<a name="home"></a>-->
+      <h1 class="name">Julian Keller</h1>
+      <p>I am a Computer Science Major at Washington State University. I am currently seeking a Software
+        Developer/Engineering Internship for the summer of 2019. Welcome to my Portfolio.</p>
+    </div>
 
-      <div class="col1">
-        <h1 class="titles">Julian Keller</h1>
-        <!--<h3>Computer Science Major</h3>-->
-        <p>
-          I am a Computer Science Major at Washington State University Vancouver.
-          I am currently seeking a Software Development Internship for the Summer of 2019.
-          I enjoy writing code to solve problems and make life easier.
-        </p>
 
-        <div class="icon-table2">
-        <ul class="contact-list">
-          <li><a target="_blank" href="https://github.com/JulianKeller"><i class="fab fa-github fa-1x"></i> GitHub</a></li>
-          <li><a target="_blank" href="https://www.linkedin.com/in/juliankeller-"><i class="fab fa-linkedin fa-1x"></i> LinkedIn</a></li>
-          <li><a target="_top" href="mailto:julian.keller@wsu.edu"><i class="fas fa-envelope fa-1x"></i>  Email</a></li>
-        </ul>
+    <div class="colorBlock">
+      <a name='portfolio'></a>
+      <div id='portfolio' class="blockInfo">
+        <hr>
+        <h1 class="block-title">Portfolio</h1>
+
+        <div class="card">
+          <div class="col1">
+            <a class="card-title">Cash Flow</a>
+            <p>
+              Cash Flow is a Meteor webapp designed to assist users in budgeting and planning for future
+              expenses. Users can create an account and add budgeting expenses/goals. This was a two person project
+              developed
+              with the Waterfall Model.
+            </p>
+            <code>Javascript, HTML, CSS</code>
+            <code><a class='source' target="_blank" href="https://github.com/JulianKeller/webapp320">Source
+              Code</a></code>
+          </div>
+          <div class="col2">
+            <a target="_blank" href="images/CashFlow/user-budget.png"><img class="card-image"
+                                                                           src="images/CashFlow/user-budget.png"></a>
+          </div>
         </div>
 
-        <!--<h3>Projects</h3>-->
-        <!--<ul>-->
-          <!--<li><a href="#">Project</a></li>-->
-          <!--<li><a href="#">Project</a></li>-->
-          <!--<li><a href="#">Project</a></li>-->
-          <!--<li><a href="#">Project</a></li>-->
-        <!--</ul>-->
+        <div class="card">
+          <div class="col1">
+            <a target="_blank" href="https://juliankeller.github.io/shoppingList/" class="card-title">Shopping List</a>
+            <p>
+              A responsive web app that allows the user to create a shopping list and keep track of their total as they
+              shop.
+            </p>
+            <code>Javascript, HTML, CSS</code>
+            <code><a class='source' target="_blank" href="https://github.com/JulianKeller/shoppingList">Source
+              Code</a></code>
+          </div>
+          <div class="col2">
+            <div class="center">
+              <a target="_blank" href="images/shoppinglist-light.png"><img class="card-image left"
+                                                                           src="images/shoppinglist/shoppinglist-light.png"></a>
+              <a target="_blank" href="images/shoppinglist-dark.png"><img class="card-image left"
+                                                                          src="images/shoppinglist/shoppinglist-dark.png"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="colorBlock">
+      <a name='skills'></a>
+      <div class="blockInfo">
+        <hr>
+        <h1 class="block-title">Skills</h1>
+        <p>Through my coursework I have used a variety of different languages and tools.</p>
 
         <!--<h3>Languages</h3>-->
+        <!--<code>Python, Java, Javascript, C, HTML, CSS</code>-->
 
-      </div>
+        <!--<h3>Software and Tools</h3>-->
+        <!--<code>Git, macOS, Linux</code>-->
 
-      <div class="col2">
-        <h1 class="titles">Projects</h1>
 
-        <div class="card">
-          <h1 class="titles">Cash Flow</h1>
-          <p>Cash Flow is a Meteor webapp designed to assist users in budgeting and planning for future
-            expenses. Users can create an account and add budgeting expenses/goals. This was a two person project developed
-            with the Waterfall Model.
-          </p>
-          <a target="_blank" href="images/CashFlow/user-budget.png"><img class="card-image" src="images/CashFlow/user-budget.png"></a>
-          <p class="languages">Javascript, HTML, CSS</p>
-          <div class="center">
-          <a target="_blank" href="https://github.com/JulianKeller/webapp320">Source Code</a>
+
+        <div class="skills">
+          <div>
+            <h3>Languages</h3>
+            <ul>
+              <li><code>Python, Java, Javascript, C, HTML, CSS</code></li>
+              <!--<li>Python</li>-->
+              <!--<li>Java</li>-->
+              <!--<li>JavaScript</li>-->
+              <!--<li>C</li>-->
+              <!--<li>HTML</li>-->
+              <!--<li>CSS</li>-->
+            </ul>
           </div>
-        </div>
 
-        <div class="card">
-          <h1 class="titles">Make Repo</h1>
-          <p>Make Repo is a simple Shell script which creates a new local git repository and pushes it to GitHub.
-            It will create a blank README.md and .gitignore automatically. It will also prompt the user and ask if they
-            would like to create any other blank files. While creating a new repo is easy, there are several steps to
-            take. This script makes it even easier by reducing it to a single step of running the script.
-          </p>
-          <!--<img class="card-image" src="images/CashFlow/user-budget.png">-->
-          <p class="languages">Bash</p>
-          <div class="center">
-            <a target="_blank" href="https://github.com/JulianKeller/makeRepo">Source Code</a>
+
+          <div>
+            <h3>Software</h3>
+            <ul>
+              <li><code>Git, macOS, Linux</code></li>
+              <!--<li>Git</li>-->
+              <!--<li>macOS</li>-->
+              <!--<li>Linux</li>-->
+            </ul>
           </div>
         </div>
 
       </div>
     </div>
-  </div>
 
-  <div id="footer">
-    <div class="icon-table">
-      <ul class="icons">
-        <li><a href="#"><i class="fab fa-github fa-2x"></i></a></li>
-        <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
-        <li><a href="#"><i class="fas fa-envelope fa-2x"></i></a></li>
-        <li><a href="new-index.html"><i class="fas fa-envelope fa-2x"></i></a></li>
-      </ul>
+    <div class="colorBlock">
+      <a name='connect'></a>
+      <div id="connect" class="blockInfo">
+        <hr>
+        <h1 class="block-title">Connect</h1>
+        <p>Please feel free to checkout my GitHub Projects, connect on LinkedIn, or shoot me an Email.</p>
+        <div class="button-list">
+          <ul class="icons">
+            <li><a target="_blank" href="https://github.com/JulianKeller"><i class="fab fa-github fa-1x"></i> Github</a>
+            </li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/juliankeller-"><i class="fab fa-linkedin fa-1x"></i>
+              LinkedIn</a></li>
+            <li><a target="_top" href="mailto:julian.keller@wsu.edu"><i class="fas fa-envelope fa-1x"></i> Email</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <p id="copyright">Julian Keller 2018 &copy;</p>
+    <div class="colorBlock">
+      <div id='footer' class="blockInfo">
+        <hr>
+        <div class="icon-table">
+          <ul class="icons">
+            <li><a target="_blank" href="https://github.com/JulianKeller"><i class="fab fa-github fa-2x"></i></a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/juliankeller-"><i
+                class="fab fa-linkedin fa-2x"></i></a></li>
+            <li><a target="_top" href="mailto:julian.keller@wsu.edu"><i class="fas fa-envelope fa-2x"></i></a></li>
+          </ul>
+        </div>
+        <p id="copyright">Julian Keller 2019 &copy;</p>
+      </div>
 
-  </div>
-
-
-</div>
+    </div>
 </body>
-
-
 </html>

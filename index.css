@@ -74,11 +74,16 @@ html body {
 
 .block-title {
   font-size: calc(4vh + 15px);
+  text-align: center;
+}
+
+.blockInfo p {
+  text-align: center;
 }
 
 #head {
-text-align: center;
-  padding: 5%;
+  text-align: center;
+  padding: 20px;
 }
 
 #head p {
@@ -109,6 +114,11 @@ text-align: center;
   margin-bottom: 30px;
   padding: 30px;
   /*color: white;*/
+}
+
+.card code{
+  font-weight: bold;
+  color: #C3083F;
 }
 
 .card-info li {
@@ -235,39 +245,55 @@ hr {
 
 
 .skills {
-  width: 75%;
-  /*display: flex;*/
+  width: 65%;
+  display: flex;
   margin: 0 auto;
-  background-color: darkslategray;
+  text-align: center;
+  /*background-color: darkslategray;*/
   /*margin-left: auto;*/
   /*margin-right: auto;*/
 }
 
-.skills table {
-  /*table-layout: auto;*/
-  /*display: table;*/
-  /*border-collapse: collapse;*/
+.skills ul {
+  padding: 0;
 }
 
-.skills-list {
-  table-layout: fixed;
-  width: 100%;
-  /*display: block;*/
-  /*margin: 10px;*/
-  /*float: left;*/
+.skills li {
+  list-style: none;
 }
 
-/*#left {*/
-  /*float: left;*/
-/*}*/
+.skills div {
+  margin: 0 auto;
+  float: left;
+}
 
-/*#right {*/
-  /*float: right;*/
-/*}*/
 
-/*#center {*/
-  /*margin: 0 auto;*/
-/*}*/
+.button-list ul{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.button-list a {
+  text-decoration: none;
+  background-color: #01b361;
+  color: whitesmoke;
+  box-shadow: 1px 1px 30px black;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.button-list a:hover {
+  color: black;
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 30px #01b361;
+}
+
+.button-list i {
+  padding-right: 3px;
+}
 
 
 #background {
