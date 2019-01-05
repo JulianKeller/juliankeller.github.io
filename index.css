@@ -148,6 +148,7 @@ html body {
 .card p {
   color: #bababc;
   font-size: 18px;
+  text-align: left;
 }
 
 .source {
