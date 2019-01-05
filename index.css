@@ -7,11 +7,6 @@ html body {
 }
 
 
-
-.container {
-  /*position: absolute;*/
-}
-
 /* Main Menu */
 .menu {
   display: block;
@@ -88,8 +83,8 @@ html body {
 
 #head p {
   text-align: left;
-  width: 70%;
-  font-size: calc(.8vw + .8vh + 5px);
+  /*width: 70%;*/
+  /*font-size: calc(.8vw + .8vh + 10px);*/
   margin: 0 auto;
 }
 
@@ -163,8 +158,8 @@ html body {
   text-decoration: none;
 }
 
-.source:hover {
-  color: #01bd59;
+.col1 a:hover {
+  color: #02d46b;
 }
 
 /*.card:after {*/
@@ -264,7 +259,7 @@ hr {
 
 .skills div {
   margin: 0 auto;
-  float: left;
+  /*float: left;*/
 }
 
 
@@ -310,4 +305,87 @@ hr {
 }
 #accent {
   background-color: #01b361;
+}
+
+
+
+/* for smaller screens */
+@media screen and (max-width: 800px) {
+  #head p {
+    text-align: left;
+    width: 100%;
+    font-size: calc(.8vw + .8vh + 10px);
+    margin: 0 auto;
+  }
+
+  #portfolio {
+    width: 100%;
+  }
+
+  .card {
+    margin: auto auto 15px;
+    display: block;
+  }
+
+  .source {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .source:hover {
+    /*color: #01d67a;*/
+  }
+
+  .col1 .col2 {
+    /*display: block;*/
+    /*float: left;*/
+    /*border: 1px solid white;*/
+  }
+
+  .col1 {
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  .col1 p {
+    text-align: left;
+  }
+
+  .col2 {
+    margin-top: 10px;
+    width: 100%;
+    /*background-color: green;*/
+  }
+
+  .skills {
+    display: block;
+  }
+
+  .skills p {
+    text-align: left;
+  }
+
+  .button-list li {
+    display: block;
+    margin: 20px;
+  }
+
+  .hide-mobile {
+    display: none;
+  }
+
+}
+
+/* for larger screens */
+@media screen and (min-width: 801px) {
+  #head p {
+    text-align: left;
+    width: 70%;
+    font-size: calc(.8vw + .8vh + 10px);
+    margin: 0 auto;
+  }
+
+  /*.hide-large {*/
+    /*display: none;*/
+  /*}*/
 }
