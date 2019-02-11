@@ -251,12 +251,17 @@ hr {
   /*margin-right: auto;*/
 }
 
+.skills h3 {
+  font-size: calc(10px + 2vh);
+}
+
 .skills ul {
   padding: 0;
 }
 
 .skills li {
-  list-style: none;
+  /*list-style: none;*/
+  text-align: left;
 }
 
 .skills div {
